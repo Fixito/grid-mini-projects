@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400&display=swap');
 
-/* 
+/*
 ==========
 Variables
 ==========
@@ -15,7 +15,7 @@ Variables
   --mainSpacing: 0.2rem;
 }
 
-/* 
+/*
 ==========
 Global Styles
 ==========
@@ -78,7 +78,7 @@ p {
   color: var(--mainWhite);
 }
 
-/* 
+/*
 ==========
 Navbar
 ==========
@@ -118,7 +118,7 @@ Navbar
   color: var(--mainBlack);
 }
 
-/* 
+/*
 ==========
 Hero
 ==========
@@ -157,9 +157,9 @@ Hero
   }
 }
 
-/* 
+/*
 ==========
-Hero
+Cards
 ==========
 */
 .cards {
@@ -237,7 +237,7 @@ Hero
   grid-template-columns: repeat(auto-fill, minmax(268.5px, 1fr));
 }
 
-/* 
+/*
 ==========
 Tiles
 ==========
@@ -324,7 +324,7 @@ Tiles
   }
 }
 
-/* 
+/*
 ==========
 Layout
 ==========
