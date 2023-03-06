@@ -26,6 +26,10 @@ Global Styles
   box-sizing: border-box;
 }
 
+html {
+  min-height: -webkit-fill-available;
+}
+
 body {
   font-family: 'Fira Code', monospace;
   color: var(--mainBlack);
@@ -130,7 +134,6 @@ Hero
 */
 .hero-header {
   min-height: 100vh;
-  min-height: -webkit-fill-available;
   background: var(--primaryColor);
   color: var(--mainWhite);
   display: grid;
