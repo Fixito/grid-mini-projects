@@ -30,6 +30,7 @@ body {
   font-family: 'Fira Code', monospace;
   color: var(--mainBlack);
   background: var(--mainWhite);
+  line-height: 1.5;
 }
 
 a {
@@ -44,34 +45,32 @@ img {
 h1,
 h2,
 h3 {
-  text-transform: capitalize;
+  line-height: 1;
   letter-spacing: var(--mainSpacing);
   margin-bottom: 1.25rem;
 }
 
 h1 {
-  font-size: clamp(2rem, 5vw, 5rem);
+  font-size: 3.052rem;
 }
 
 h2 {
-  font-size: clamp(1.5rem, 3vw, 3rem);
+  font-size: 2.441rem;
   margin-bottom: 0;
 }
 
 h3 {
-  font-size: clamp(1.25rem, 2.5vw, 2.5rem);
+  font-size: 1.953rem;
 }
 
 p {
   font-weight: 300;
   font-size: 0.7rem;
-  line-height: 2;
 }
 
 .btn {
   display: inline-block;
   padding: 0.5rem 1rem;
-  text-transform: capitalize;
   border: 3px solid var(--primaryColor);
   color: var(--primaryColor);
   margin: 3rem;
@@ -130,7 +129,7 @@ Hero
 */
 .hero-header {
   min-height: 100vh;
-  min-height: 100dvh;
+  min-height: 100dh;
   background: var(--primaryColor);
   color: var(--mainWhite);
   display: grid;
@@ -139,15 +138,12 @@ Hero
 }
 
 .hero-title {
-  text-transform: capitalize;
   font-size: 4rem;
 }
 
 .hero-text {
-  max-width: 80%;
-  max-width: 560px;
+  max-width: 40em;
   font-size: 1rem;
-  letter-spacing: var(--mainSpacing);
 }
 
 @media screen and (max-width: 600px) {
@@ -351,9 +347,8 @@ Layout
   display: inline-block;
   padding: 1rem;
   color: var(--mainBlack);
-  text-transform: capitalize;
   letter-spacing: var(--mainSpacing);
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   transition: var(--mainTransition);
 }
 
@@ -383,7 +378,6 @@ Layout
   background: var(--mainBlack);
   padding: 0.5rem 0;
   color: var(--offWhite);
-  text-transform: capitalize;
   text-align: center;
 }
 
