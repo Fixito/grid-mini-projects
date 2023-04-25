@@ -129,7 +129,7 @@ Hero
 */
 .hero-header {
   min-height: 100vh;
-  min-height: 100dh;
+  min-height: 100dvh;
   background: var(--primaryColor);
   color: var(--mainWhite);
   display: grid;
